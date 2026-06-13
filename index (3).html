@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratibha.ai - Democratizing Sports Analytics & Marketplace</title>
+  <meta name="description" content="AI-powered sports biomechanics and sponsorship marketplace connecting raw talent with top brands.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Tech Grid Background -->
+  <div class="grid-bg"></div>
+  <div class="glow-orb orb-cyan"></div>
+  <div class="glow-orb orb-violet"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#home" class="logo" id="logo-link">Pratibha.ai</a>
+      <nav>
+        <ul>
+          <li><a href="#home" class="nav-link active" data-tab="home">Home</a></li>
+          <li><a href="#playground" class="nav-link" data-tab="playground">AI Playground</a></li>
+          <li><a href="#marketplace" class="nav-link" data-tab="marketplace">Marketplace</a></li>
+          <li><a href="#chat" class="nav-link" data-tab="chat">Messages</a></li>
+          <li><a href="#pitch" class="nav-link" data-tab="pitch">Pitch Hub</a></li>
+          <li><a href="#dashboard" class="nav-link" data-tab="dashboard">Brand Portal</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-secondary" id="btn-demo-header">Try Analyzer</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 1: Home/Landing Page -->
+    <section id="section-home" class="app-section active">
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Democratizing <span>Sports Analytics</span> for Every Athlete</h1>
+          <p>
+            Pratibha.ai transforms standard 2D smartphone videos into verified biomechanical datasets. Elevating hidden talent with pro-grade metrics, and establishing a trusted scouting marketplace for brands.
+          </p>
+          <div class="hero-cta">
+            <button class="btn btn-primary" id="hero-btn-playground">Try AI Playground</button>
+            <button class="btn btn-secondary" id="hero-btn-marketplace">Explore Marketplace</button>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <h3>94.2%</h3>
+              <p>AI Metric Accuracy</p>
+            </div>
+            <div class="hero-stat-item">
+              <h3>100%</h3>
+              <p>Mobile Native (No Wearables)</p>
+            </div>
+            <div class="hero-stat-item">
+              <h3>BETA</h3>
+              <p>Early Access Live</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="graphic-container">
+            <div class="tech-ring"></div>
+            <div class="tech-ring-inner"></div>
+            <div class="athlete-outline">
+              <svg class="athlete-illustration" viewBox="0 0 100 100" fill="none" stroke="url(#cyan-violet-grad)" stroke-width="1" stroke-linecap="round">
+                <defs>
+                  <linearGradient id="cyan-violet-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00F2FE" />
+                    <stop offset="100%" stop-color="#9B51E0" />
+                  </linearGradient>
+                </defs>
+                <!-- Stylized athlete runner pose -->
+                <circle cx="55" cy="22" r="6" fill="#00F2FE" />
+                <path d="M 55 28 L 52 45 L 40 58 L 28 52" />
+                <path d="M 52 45 L 65 62 L 72 78" />
+                <path d="M 52 35 L 42 30 L 32 38" />
+                <path d="M 52 35 L 68 40 L 78 35" />
+                <path d="M 40 58 L 48 78 L 44 92" />
+                <!-- Biometric tracking nodes -->
+                <circle cx="52" cy="35" r="2.5" fill="#9B51E0" />
+                <circle cx="52" cy="45" r="2.5" fill="#00F2FE" />
+                <circle cx="40" cy="58" r="2.5" fill="#9B51E0" />
+                <circle cx="65" cy="62" r="2.5" fill="#00F2FE" />
+                <circle cx="48" cy="78" r="2.5" fill="#9B51E0" />
+                <line x1="55" y1="22" x2="52" y2="35" stroke="#fff" stroke-dasharray="1 1" />
+                <line x1="52" y1="45" x2="40" y2="58" stroke="#fff" stroke-dasharray="1 1" />
+              </svg>
+            </div>
+            <div class="floating-data-card f-card-1">
+              <span>Velocity: <strong>8.4 m/s</strong></span>
+            </div>
+            <div class="floating-data-card f-card-2">
+              <span>Release Angle: <strong>38.5°</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features Block -->
+      <div class="section-header">
+        <h2>From Smartphone to Sponsorship</h2>
+        <p>A simple video turns raw potential into vetted, investment-ready opportunities.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="glass-panel feature-card">
+          <div class="feature-icon">📹</div>
+          <h3>Smartphone Capture</h3>
+          <p>No expensive wearable sensors or specialized labs. Record practice sessions on standard smartphone video, 30fps or 60fps.</p>
+        </div>
+        <div class="glass-panel feature-card">
+          <h3>Democratized Biometrics</h3>
+          <div class="feature-icon">📐</div>
+          <p>Extract pro-grade performance data (release angles, joint kinematics, velocity metrics) automatically via computer vision AI.</p>
+        </div>
+        <div class="glass-panel feature-card">
+          <h3>Marketplace Validation</h3>
+          <div class="feature-icon">🤝</div>
+          <p>Brands like Campus, Yoho, and Frido can filter validated biomechanical profiles to discover and fund the next generation of athletic talent.</p>
+        </div>
+      </div>
+
+      <!-- Pricing & Revenue Models -->
+      <div class="section-header" style="margin-top: 4.5rem;">
+        <h2>Revenue & Growth Strategy</h2>
+        <p>A B2B2C model combining premium subscriptions, marketplace commissions, and data licensing.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="glass-panel feature-card" style="border-color: rgba(155, 81, 224, 0.25);">
+          <div class="feature-icon">💎</div>
+          <h3>Premium Subscription</h3>
+          <div style="font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; color: var(--accent-violet); margin: 0.5rem 0;">₹199<span style="font-size: 0.9rem; font-weight: normal; color: var(--text-secondary);">/month</span></div>
+          <p style="font-size: 0.85rem; margin-bottom: 1.2rem; color: var(--text-secondary);">For grassroots athletes and academies seeking advanced biomechanical tracking, skeleton graphs, and verified scouts badges.</p>
+          <button class="btn btn-premium" id="btn-subscribe-premium" style="width: 100%; justify-content: center;">Subscribe Premium</button>
+        </div>
+        <div class="glass-panel feature-card" style="border-color: rgba(0, 242, 254, 0.25);">
+          <div class="feature-icon">🤝</div>
+          <h3>Brand Matching</h3>
+          <div style="font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; color: var(--accent-cyan); margin: 0.5rem 0;">15%<span style="font-size: 0.9rem; font-weight: normal; color: var(--text-secondary);"> platform fee</span></div>
+          <p style="font-size: 0.85rem; margin-bottom: 1.2rem; color: var(--text-secondary);">Commission on micro-sponsorship and brand ambassadorship contracts executed securely through our escrow platform.</p>
+          <button class="btn btn-primary" id="btn-brand-info" style="width: 100%; justify-content: center; color: black;">Partner as Brand</button>
+        </div>
+        <div class="glass-panel feature-card" style="border-color: rgba(0, 230, 118, 0.25);">
+          <div class="feature-icon">📊</div>
+          <h3>Data Licensing</h3>
+          <div style="font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; color: var(--accent-green); margin: 0.5rem 0;">B2B Contracts</div>
+          <p style="font-size: 0.85rem; margin-bottom: 1.2rem; color: var(--text-secondary);">Aggregated, anonymized talent mapping reports and regional index metrics compiled for state sports ministries and leagues.</p>
+          <button class="btn btn-secondary" id="btn-licensing-info" style="width: 100%; justify-content: center;">Request Details</button>
+        </div>
+      </div>
+
+      <!-- Founder Story -->
+      <div class="glass-panel" style="margin-top: 4rem; padding: 2.5rem; display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 3rem; align-items: center; border-color: rgba(0, 242, 254, 0.2);">
+        <div>
+          <span style="font-family: var(--font-display); text-transform: uppercase; font-size: 0.75rem; color: var(--accent-cyan); font-weight: 600; letter-spacing: 1.5px; display: block; margin-bottom: 0.5rem;">Founder's Story</span>
+          <h2 style="font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 1rem; color: white;">Marut Nandan's Track Vision</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.95rem;">
+            "The concept of Pratibha.ai was born directly on the university athletic track. Balancing my academics in business analytics with competitive javelin, shot put, and long jump, I identified a massive gap in the Indian sports ecosystem.
+          </p>
+          <p style="color: var(--text-secondary); margin-bottom: 1.2rem; font-size: 0.95rem;">
+            Brilliant athletes in Tier-2 and Tier-3 cities lacked objective performance metrics to optimize their technique and the visibility required to secure sponsorships for basic gear like lifting belts or proper shoes. By merging data science with computer vision, we turn standard smartphone videos into professional-grade analytics and democratize athlete funding."
+          </p>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-violet) 100%); display: flex; align-items: center; justify-content: center; font-weight: 800; font-family: var(--font-display); color: white;">MN</div>
+            <div>
+              <strong style="display: block; color: white;">Marut Nandan</strong>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Founder, Pratibha.ai • BBA Business Analytics (Sem IV)</span>
+            </div>
+          </div>
+        </div>
+        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-color); padding: 2rem; border-radius: 12px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <h4 style="font-family: var(--font-display); margin-bottom: 0.8rem; color: white;">Galgotias University Project</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.2rem; line-height: 1.5;">
+              Submitted for the <strong>Corporate Communication (Practical) - End Term Examination (ETE)</strong>. Program: BBA Business Analytics, Semester IV.
+            </p>
+            <div style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem; color: var(--text-secondary);">
+              <div>🏫 <strong>Institution</strong>: Galgotias University</div>
+              <div>🎓 <strong>Submitted By</strong>: Marut Nandan</div>
+              <div>📚 <strong>Subject</strong>: Corporate Comm ETE</div>
+            </div>
+          </div>
+          <button class="btn btn-premium" id="btn-open-pitch-hub-direct" style="width: 100%; margin-top: 1.5rem; justify-content: center;">📂 Open Examination Pitch Hub</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: AI Playground (Computer Vision Simulator) -->
+    <section id="section-playground" class="app-section">
+      <div class="section-header">
+        <h2>AI Biometrics Playground</h2>
+        <p>Select an athletic event below to simulate real-time joint-tracking and motion kinematics extraction.</p>
+      </div>
+
+      <div class="playground-layout">
+        <!-- Video Screen panel -->
+        <div class="video-analyzer-container">
+          <div class="video-screen-wrapper">
+            <!-- Simulated video scanner canvas -->
+            <canvas id="analyzer-canvas" class="canvas-overlay" width="720" height="405"></canvas>
+            
+            <div class="video-overlay-details">
+              <div class="telemetry-tag">
+                <span>FPS: <strong id="video-fps">60.0</strong></span>
+              </div>
+              <div class="telemetry-tag">
+                <span>EVENT: <strong id="video-event-label">Javelin Throw</strong></span>
+              </div>
+            </div>
+
+            <div class="video-status-tag">
+              <div class="status-badge" id="video-status-badge">
+                <span>STANDBY</span>
+              </div>
+            </div>
+
+            <div class="scan-bar" id="scanning-laser"></div>
+
+            <div class="screen-placeholder-text" id="canvas-placeholder">
+              <i>📊</i>
+              <p>Select a sport and click <strong>Simulate AI Analysis</strong></p>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="analyzer-controls">
+            <div class="preset-selector">
+              <button class="preset-btn active" data-preset="javelin">Javelin</button>
+              <button class="preset-btn" data-preset="longjump">Long Jump</button>
+              <button class="preset-btn" data-preset="shotput">Shot Put</button>
+            </div>
+            <div class="upload-zone">
+              <button class="btn btn-secondary" id="btn-upload-mock">📁 Upload Video</button>
+              <button class="btn btn-primary" id="btn-run-simulation">⚡ Simulate AI Analysis</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Telemetry & Diagnostic details -->
+        <div class="glass-panel diagnostics-panel">
+          <div class="diag-header">
+            <div class="diag-title">
+              <h3>Live Telemetry</h3>
+              <p style="font-size: 0.75rem; color: var(--text-muted);">Kinematic coordinate streams</p>
+            </div>
+            <div class="a-badge score" id="diag-overall-score">92/100</div>
+          </div>
+
+          <div class="metrics-list">
+            <div class="metric-row">
+              <span class="metric-label">📐 Release Angle</span>
+              <span class="metric-value" id="metric-angle">--</span>
+            </div>
+            <div class="metric-row">
+              <span class="metric-label">🚀 Release Velocity</span>
+              <span class="metric-value" id="metric-velocity">--</span>
+            </div>
+            <div class="metric-row">
+              <span class="metric-label">📏 Projected Distance</span>
+              <span class="metric-value" id="metric-distance">--</span>
+            </div>
+            <div class="metric-row">
+              <span class="metric-label">⚡ Knee Extension Speed</span>
+              <span class="metric-value" id="metric-kneespeed">--</span>
+            </div>
+          </div>
+
+          <div class="feedback-box">
+            <h4 id="coach-feedback-title">Posture Feedback</h4>
+            <p id="coach-feedback-text">AI is standing by. Run the analysis to generate biomechanical optimizations for performance improvements.</p>
+          </div>
+
+          <div class="console-box" id="cli-console">
+            <div class="console-line">Pratibha.ai Core Core Biomechanics Analyzer [Version 2.4.1]</div>
+            <div class="console-line">Type: "Simulate AI Analysis" to launch local engine.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Sponsorship Marketplace -->
+    <section id="section-marketplace" class="app-section">
+      <div class="section-header">
+        <h2>Sponsorship Marketplace</h2>
+        <p>Direct athletic sponsorship contracts based on verified data. Connect with rising sports talent.</p>
+      </div>
+
+      <!-- Filters Row -->
+      <div class="marketplace-filters">
+        <div class="search-input-wrapper">
+          <input type="text" placeholder="Search athletes by name or city..." id="marketplace-search">
+        </div>
+        <div class="filter-chips">
+          <button class="filter-chip active" data-filter="all">All Events</button>
+          <button class="filter-chip" data-filter="javelin">Javelin</button>
+          <button class="filter-chip" data-filter="longjump">Long Jump</button>
+          <button class="filter-chip" data-filter="shotput">Shot Put</button>
+        </div>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="athlete-grid" id="athlete-cards-container">
+        <!-- Reactively populated via JavaScript -->
+      </div>
+    </section>
+
+    <!-- Section 4: Brand Portal Dashboard -->
+    <section id="section-dashboard" class="app-section">
+      <div class="section-header">
+        <h2>Brand Sponsorship Portal</h2>
+        <p>Manage and track investments. Connect with promising athletes directly.</p>
+      </div>
+
+      <div class="dashboard-grid">
+        <!-- Left Side: Overview & Contracts -->
+        <div class="portfolio-overview">
+          <div class="dashboard-stats-strip">
+            <div class="d-stat-card">
+              <span class="lbl">Total Active Deals</span>
+              <div class="val" id="dash-active-contracts">3</div>
+            </div>
+            <div class="d-stat-card glow-border">
+              <span class="lbl">Total Sponsored Funds</span>
+              <div class="val" id="dash-funded-amount">₹6,80,000</div>
+            </div>
+            <div class="d-stat-card">
+              <span class="lbl">Avg. Athlete Growth</span>
+              <div class="val">+12.4%</div>
+            </div>
+          </div>
+
+          <div class="glass-panel">
+            <h3 style="font-family: var(--font-display); font-size: 1.25rem; margin-bottom: 1.5rem;">Sponsored Roster</h3>
+            <div class="active-contracts-list" id="dashboard-roster">
+              <!-- Dynamically populated sponsored roster -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Activity log -->
+        <div class="glass-panel activity-feed-container">
+          <h3 style="font-family: var(--font-display); font-size: 1.25rem; margin-bottom: 1rem;">Platform Scout Feed</h3>
+          <div class="feed-items" id="dashboard-feed">
+            <div class="feed-item">
+              <div class="feed-time">10m ago</div>
+              <div class="feed-desc"><span>Priyaraj K. (Javelin)</span> uploaded a new practice session. Release velocity increased by <span>2.1 m/s</span>.</div>
+            </div>
+            <div class="feed-item brand">
+              <div class="feed-time">1h ago</div>
+              <div class="feed-desc"><span>Campus Shoes</span> proposed a 1-year sponsorship to <span>Aarav Sharma (Long Jump)</span>.</div>
+            </div>
+            <div class="feed-item">
+              <div class="feed-time">4h ago</div>
+              <div class="feed-desc">AI biometric verification completed for <span>Rohit M. (Shot Put)</span>. Release angle verified at <span>38.2°</span>.</div>
+            </div>
+            <div class="feed-item brand">
+              <div class="feed-time">1d ago</div>
+              <div class="feed-desc"><span>Yoho Footwear</span> onboarded <span>Kavita D. (Javelin)</span> as a brand ambassador.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Chat System -->
+    <section id="section-chat" class="app-section">
+      <div class="section-header">
+        <h2>Talent Communications</h2>
+        <p>Direct message pipeline between rising athletes and sponsoring brands.</p>
+      </div>
+
+      <div class="chat-layout">
+        <!-- Sidebar: Active conversations list -->
+        <div class="glass-panel chat-sidebar">
+          <h3 style="font-family: var(--font-display); font-size: 1.15rem; margin-bottom: 1.2rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-color); color: white;">Channels</h3>
+          <div class="chat-users-list" id="chat-users-list">
+            <!-- Dynamically populated via javascript -->
+          </div>
+        </div>
+
+        <!-- Chat Window -->
+        <div class="glass-panel chat-window">
+          <div class="chat-window-header" id="chat-window-header">
+            <div class="chat-active-profile">
+              <div class="chat-avatar" id="chat-active-avatar">-</div>
+              <div>
+                <h4 id="chat-active-name">Select an Athlete</h4>
+                <p id="chat-active-status">Offline</p>
+              </div>
+            </div>
+            <button class="btn btn-premium" id="chat-sponsor-btn" style="display: none;">Sponsor Athlete</button>
+          </div>
+
+          <div class="chat-messages-container" id="chat-messages-container">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: var(--text-muted);">
+              <span style="font-size: 3rem; margin-bottom: 1rem;">💬</span>
+              <p>Select a channel on the left to start direct communications.</p>
+            </div>
+          </div>
+
+          <form class="chat-input-area" id="chat-input-form" style="display: none;">
+            <input type="text" placeholder="Type a message to the athlete..." id="chat-message-input" autocomplete="off" required>
+            <button type="submit" class="btn btn-primary" id="chat-send-btn">Send ➔</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Examination Pitch Hub -->
+    <section id="section-pitch" class="app-section">
+      <div class="section-header">
+        <h2>Marut Nandan's Examination Pitch Hub</h2>
+        <p>Galgotias University • BBA Business Analytics (Semester IV) • Corporate Communication ETE</p>
+      </div>
+
+      <!-- Pitch Hub Sub-Navigation Chips -->
+      <div class="marketplace-filters" style="justify-content: center; margin-bottom: 2.5rem;">
+        <div class="filter-chips">
+          <button class="filter-chip active pitch-nav-btn" data-subtab="slides">12-Slide Deck</button>
+          <button class="filter-chip pitch-nav-btn" data-subtab="bmc">Business Model Canvas</button>
+          <button class="filter-chip pitch-nav-btn" data-subtab="swot">SWOT & PESTLE</button>
+          <button class="filter-chip pitch-nav-btn" data-subtab="competitors">Competitor Matrix</button>
+          <button class="filter-chip pitch-nav-btn" data-subtab="viva">Viva Q&A Prep</button>
+        </div>
+      </div>
+
+      <!-- Subtab 1: 12-Slide Deck -->
+      <div id="subtab-slides" class="pitch-subtab active">
+        <div class="glass-panel" style="max-width: 900px; margin: 0 auto; min-height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-family: var(--font-display); font-size: 0.85rem; color: var(--accent-violet); font-weight: 700; text-transform: uppercase;" id="slide-num-label">Slide 1 of 12</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted);">Pratibha.ai Presentation Outline</span>
+          </div>
+
+          <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 2.5rem 1rem;" id="slide-content-area">
+            <!-- Dynamically populated slide content -->
+          </div>
+
+          <div style="border-top: 1px solid var(--border-color); padding-top: 1.2rem; display: flex; justify-content: space-between; align-items: center;">
+            <button class="btn btn-secondary" id="btn-prev-slide">◀ Previous</button>
+            <div style="display: flex; gap: 0.4rem;" id="slide-dots-container">
+              <!-- Dot indicators dynamically generated -->
+            </div>
+            <button class="btn btn-primary" id="btn-next-slide" style="color: black;">Next ▶</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subtab 2: Business Model Canvas -->
+      <div id="subtab-bmc" class="pitch-subtab">
+        <div class="glass-panel bmc-grid-container">
+          <div class="bmc-cell partner">
+            <h4>🤝 Key Partners</h4>
+            <ul>
+              <li>Universities & Athletic Circuits</li>
+              <li>D2C Sports Brands (Campus, Yoho, Frido)</li>
+              <li>Regional Coaches & Academies</li>
+              <li>State Sports Ministries & CSR Heads</li>
+            </ul>
+          </div>
+          <div class="bmc-cell activity">
+            <h4>⚡ Key Activities</h4>
+            <ul>
+              <li>AI Algorithm training & optimization</li>
+              <li>Freemium App maintenance</li>
+              <li>B2B sales & brand onboarding</li>
+              <li>Micro-escrow management</li>
+            </ul>
+          </div>
+          <div class="bmc-cell resources">
+            <h4>💻 Key Resources</h4>
+            <ul>
+              <li>Proprietary AI pose-estimation code</li>
+              <li>Verified athlete biometrics database</li>
+              <li>Scalable cloud video computing</li>
+              <li>Sponsor ambassador network</li>
+            </ul>
+          </div>
+          <div class="bmc-cell value-prop">
+            <h4>💡 Value Proposition</h4>
+            <strong>Athletes:</strong>
+            <p>Free biomechanical performance analytics & direct gear / stipend funding.</p>
+            <strong style="margin-top: 0.8rem; display: block;">Brands:</strong>
+            <p>Objective performance validation & authentic localized micro-influencer targeting.</p>
+          </div>
+          <div class="bmc-cell relations">
+            <h4>❤️ Customer Relations</h4>
+            <ul>
+              <li>Athlete-First biometric reporting</li>
+              <li>Transparent verification checks (DPDP Act)</li>
+              <li>Brand performance analytics tracking</li>
+            </ul>
+          </div>
+          <div class="bmc-cell channels">
+            <h4>📢 Channels</h4>
+            <ul>
+              <li>Instagram: reels breakdown feeds</li>
+              <li>LinkedIn: B2B targeting for CSR heads</li>
+              <li>WhatsApp: regional coach networks</li>
+            </ul>
+          </div>
+          <div class="bmc-cell segments">
+            <h4>🎯 Customer Segments</h4>
+            <ul>
+              <li>Underfunded track & field university athletes (14-25 years)</li>
+              <li>D2C sports brands seeking localized brand loyalty</li>
+              <li>Corporate CSR & marketing departments</li>
+            </ul>
+          </div>
+          <div class="bmc-cell cost-structure">
+            <h4>💰 Cost Structure</h4>
+            <ul>
+              <li>AI / App Development: ₹12,00,000</li>
+              <li>Cloud infrastructure: ₹3,00,000</li>
+              <li>Marketing & Onboarding: ₹5,00,000</li>
+              <li>Legal & DPDP Audit: ₹1,00,000</li>
+            </ul>
+          </div>
+          <div class="bmc-cell revenue-streams">
+            <h4>💵 Revenue Streams</h4>
+            <ul>
+              <li>15% Brand Matching Commission fee</li>
+              <li>Premium Subscriptions: ₹199/month</li>
+              <li>Anonymized B2B Data Licensing contracts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subtab 3: SWOT & PESTLE -->
+      <div id="subtab-swot" class="pitch-subtab">
+        <div class="pitch-swot-layout">
+          <div class="glass-panel">
+            <h3 style="font-family: var(--font-display); color: white; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1.2rem;">SWOT Analysis</h3>
+            <div class="swot-matrix">
+              <div class="swot-box s">
+                <h5>Strengths</h5>
+                <p>Proprietary AI optimized for low-bandwidth. Direct sports + fintech marketplace. High social impact model.</p>
+              </div>
+              <div class="swot-box w">
+                <h5>Weaknesses</h5>
+                <p>High initial R&D for video models. Reliance on user-generated camera qualities.</p>
+              </div>
+              <div class="swot-box o">
+                <h5>Opportunities</h5>
+                <p>Integration with TOPS/Khelo India. Rise of Indian D2C brands. Deep mobile internet penetration.</p>
+              </div>
+              <div class="swot-box t">
+                <h5>Threats</h5>
+                <p>Established analytics giants (Hudl) adapting. Sudden regulatory updates (DPDP Act compliance).</p>
+              </div>
+            </div>
+          </div>
+          <div class="glass-panel">
+            <h3 style="font-family: var(--font-display); color: white; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1.2rem;">PESTLE Framework</h3>
+            <div class="pestle-list">
+              <div class="pestle-item"><div class="p-letter">P</div><div><strong>Political</strong>: High government push for athletic development (Khelo India, TOPS).</div></div>
+              <div class="pestle-item"><div class="p-letter">E</div><div><strong>Economic</strong>: Growing middle class disposable income and increasing corporate CSR budgets.</div></div>
+              <div class="pestle-item"><div class="p-letter">S</div><div><strong>Social</strong>: Shifting cultural mindset viewing sports as a viable professional career path.</div></div>
+              <div class="pestle-item"><div class="p-letter">T</div><div><strong>Technological</strong>: Rapid 5G rollout enabling zero-latency cloud video analysis.</div></div>
+              <div class="pestle-item"><div class="p-letter">L</div><div><strong>Legal</strong>: Strict compliance required under India's Digital Personal Data Protection (DPDP) Act.</div></div>
+              <div class="pestle-item"><div class="p-letter">E</div><div><strong>Environmental</strong>: Mitigation of cloud foot-prints by contracting green server hosting providers.</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subtab 4: Competitor Matrix -->
+      <div id="subtab-competitors" class="pitch-subtab">
+        <div class="glass-panel" style="overflow-x: auto;">
+          <table class="competitors-table">
+            <thead>
+              <tr>
+                <th>Feature Comparison</th>
+                <th style="color: var(--accent-cyan);">Pratibha.ai</th>
+                <th>Hudl (Global)</th>
+                <th>Khelomore</th>
+                <th>Instagram</th>
+                <th>Strata</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="font-weight: 600;">AI Biomechanics</td>
+                <td style="color: var(--accent-green);">Yes (Smartphone)</td>
+                <td style="color: var(--text-secondary);">Yes (Heavy setup)</td>
+                <td style="color: var(--text-muted);">No</td>
+                <td style="color: var(--text-muted);">No</td>
+                <td style="color: var(--accent-cyan);">Yes (Wearables)</td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600;">Sponsorship Marketplace</td>
+                <td style="color: var(--accent-green);">Yes (Built-in)</td>
+                <td style="color: var(--text-muted);">No</td>
+                <td style="color: var(--text-muted);">No</td>
+                <td style="color: var(--accent-yellow);">Unverified</td>
+                <td style="color: var(--text-muted);">No</td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600;">Target Audience</td>
+                <td style="color: white; font-weight: 600;">Grassroots India</td>
+                <td style="color: var(--text-secondary);">Pro / Semi-Pro</td>
+                <td style="color: var(--text-secondary);">Urban Academies</td>
+                <td style="color: var(--text-secondary);">General Public</td>
+                <td style="color: var(--text-secondary);">Elite Athletes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Subtab 5: Viva Preparation -->
+      <div id="subtab-viva" class="pitch-subtab">
+        <div class="glass-panel" style="max-width: 900px; margin: 0 auto; min-height: 480px; display: flex; flex-direction: column;">
+          <div style="margin-bottom: 1.5rem; display: flex; gap: 1rem;">
+            <input type="text" placeholder="Search Marut's Top 15 Viva Q&As (e.g., DPDP, revenue, scale)..." id="viva-search-input" style="flex: 1; background: rgba(255,255,255,0.04); border: 1px solid var(--border-color); padding: 0.75rem 1.2rem; border-radius: 8px; color: white; outline: none; transition: var(--transition-smooth);">
+          </div>
+          <div class="viva-accordion-list" id="viva-accordion-list" style="flex: 1; display: flex; flex-direction: column; gap: 0.8rem;">
+            <!-- Populated reactively via javascript -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sponsorship Modal -->
+  <div class="modal-backdrop" id="sponsorship-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div class="modal-header">
+        <h3>Propose Sponsorship</h3>
+        <p>Offer funding and training gear to support <strong id="modal-athlete-name">Athlete Name</strong>.</p>
+      </div>
+      <form id="sponsorship-form">
+        <input type="hidden" id="modal-athlete-id">
+        <div class="form-group">
+          <label for="sponsor-brand">Your Brand Name</label>
+          <select id="sponsor-brand" required>
+            <option value="Campus Shoes">Campus Shoes</option>
+            <option value="Yoho Footwear">Yoho Footwear</option>
+            <option value="Frido Mobility">Frido Mobility</option>
+            <option value="Custom Sponsor">Other / Custom Brand</option>
+          </select>
+        </div>
+        <div class="form-group" id="custom-brand-group" style="display: none;">
+          <label for="custom-brand-name">Enter Brand Name</label>
+          <input type="text" id="custom-brand-name" placeholder="E.g. Puma, Nike, local brand">
+        </div>
+        <div class="form-group">
+          <label for="sponsor-type">Sponsorship Class</label>
+          <select id="sponsor-type" required>
+            <option value="Gear Ambassador">Gear Ambassador (Shoes, Gear & Kits)</option>
+            <option value="Financial Backing">Financial Backing (Monthly Stipend + Training)</option>
+            <option value="Full Ambassadorship">Full Ambassadorship (Stipend + Gear + Travel)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="sponsor-amount">Proposed Funding (Annual)</label>
+          <input type="number" id="sponsor-amount" placeholder="₹1,50,000" min="1000" required>
+        </div>
+        <div class="form-group">
+          <label for="sponsor-message">Offer Proposal Message</label>
+          <textarea id="sponsor-message" rows="3" placeholder="Tell the athlete why you believe in their metrics..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-premium" style="width: 100%; justify-content: center;">Send Sponsorship Offer</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3 style="font-family: var(--font-display); font-weight: 700; color: white; margin-bottom: 0.5rem;">Pratibha.ai</h3>
+        <p>© 2026 Pratibha.ai. Transforming sports access through AI.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#playground">Analyzer</a>
+        <a href="#marketplace">Marketplace</a>
+        <a href="#chat">Messages</a>
+        <a href="#pitch">Pitch Hub</a>
+        <a href="#dashboard">Scout Dashboard</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
